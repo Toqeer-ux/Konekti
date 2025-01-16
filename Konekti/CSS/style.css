@@ -1,0 +1,916 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #132f45;
+    padding: 5px 0;
+}
+.header a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #c3c3c2;
+    font-weight: 600;
+}
+.header a i{
+    color: #fff;
+    margin-right: 5px;
+}
+.header-right{
+    text-align: right;
+    border-right: 1px solid #dddddd70;
+}
+.header-right ul{
+    margin: 0;
+}
+.header-right ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+/* Nabvar */
+.navbar-brand img{
+    width: 150px;
+}
+.navbar-data{
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+.navbar-nav a{
+    font-weight: 500;
+    color: #000;
+}
+.dropdown-toggle::after{
+    color: #cdcdcd;
+}
+.navbar-nav .nav-link:hover{
+    color: #34a1e2;
+    /* border-bottom: 2px solid #34a1e2; */
+}
+.nav-icons{
+    display: flex;
+}
+.nav-icons a{
+    text-decoration: none;
+}
+.tool{
+    margin-left: 20px;
+}
+.nav-icons img{
+    width: 20px;
+}
+.navbar button:focus:not(:focus-visible){
+    box-shadow: 0px 0px 3px #0326a5;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+/* Hero-slider */
+.slider-img{
+    width: 100%;
+    height: 535px;
+    padding: 7rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overlay{
+    background: linear-gradient(rgba(0,0,0,0.8),(0,0,0,0.8));
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.slider-img img{
+    width: 100%;
+}
+.hero-slider h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+}
+.hero-slider p{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.btn-slider{
+    margin-top: 70px;
+}
+.btn-slider a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 35px;
+    background-color: #34a1e2;
+}
+.btn-slider a:hover{
+    background-color: #132f45;
+}
+.slider-data{
+    padding: 30px 0;
+}
+.carousel-nav{
+    position: absolute;
+    top: 90%;
+    left: 10px;
+}
+.carousel-control-prev{
+    left: 110px;
+}
+.carousel-control-next{
+    left: 190px;
+}
+.carousel-nav i{
+    font-size: 20px;
+}
+.carousel-indicators{
+    top: 85%;
+    margin-left: 9%;
+    width: 5%;
+}
+.carousel-indicators [data-bs-target]{
+    height: 30px;
+    border-radius: 100%;
+    background: none;
+    color: #fff;
+    text-indent: 0;
+}
+.carousel-indicators button{
+    display: none;
+}
+.carousel-indicators button.active{
+    display: block;
+}
+/* servics */
+.services{
+    border-bottom: 1px solid #ddd;
+}
+.servics-heading span{
+    color:#0D6efd ;
+}
+.servics-detail{
+    margin-top: 60px;
+}
+.servics-detail .row{
+    justify-content: center;
+}
+.servics-box{
+    border: 1px solid #ddd;
+    padding: 30px 16px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    height: 95%;
+}
+.box-data{
+    margin-bottom: 30px;
+}
+.servics-box .box-img{
+    margin-bottom: 15px;
+}
+.servics-box img{
+    width: 50px;
+}
+.box-btn a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    font-size: 15px;
+    color: #0D6efd;
+}
+/* about */
+.about-left span{
+    color: #0D6efd ;
+}
+.about-left h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.about-right img{
+    width: 100%;
+}
+.about-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-box h2{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.about-box img{
+    width: 50px;
+}
+.About-agility, .About-experience{
+    padding:0 5px;
+    width: 100%;
+}
+/* solution */
+.solution{
+    background-color: #132f45;
+}
+.solution .solution-heading span{
+    color:#3888ff ;
+}
+.solution .solution-heading h2{
+    margin-top: 15px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.solution-box{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding:40px;
+    text-align: center;
+    height: 95%;
+}
+.solution-box img{
+    width: 60px;
+}
+.solution-detail{
+    margin-top: 50px;
+}
+.solution-text{
+    margin-top: 20px;
+}
+.solution-btn{
+    text-align: center;
+    padding-top: 40px;
+}
+.solution-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0D6efd;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+.solution-btn a:hover{
+    background-color: #216294;
+}
+/* Studies */
+.studies{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../Imgs/study-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.studies-heading h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.study-img img{
+    width: 100%;
+}
+.study-text{
+    padding-top: 30px;
+    text-align: center;
+}
+.study-text h2{
+    color: #fff
+}
+.studies-detail{
+    margin-top: 50px;
+}
+/* Insight */
+.insight{
+    border-bottom: 1px solid #ddd;
+}
+.insight-heading h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+.insight-detail{
+    margin-top: 50px;
+}
+.insight-box{
+    border: 1px solid #ddd;
+    height:100%;
+}
+.insight-box img{
+    width: 100%;
+}
+.insight-text{
+    padding: 25px;
+}
+.insight-text span{
+    font-size: 14px;
+}
+.insight-date{
+    margin-bottom: 20px;
+}
+.date-line{
+    border-right: 1px solid;
+    padding-right:10px;
+}
+.insight-text .insight-date .name{
+    padding-left: 10px;
+}
+.insight-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.insight-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0D6efd;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.insght-view-btn{
+    text-align: center;
+    margin-top: 60px;
+}
+.insght-view-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0D6efd;
+    padding: 12px 50px;
+    text-transform: uppercase;
+}
+.insght-view-btn a:hover, .insight-btn a:hover{
+    background-color: #216294;
+}
+/* Testimonials */
+.testimonial{
+    padding: 60px 0 120px;
+}
+.testi-heading{
+    margin-bottom: 50px;
+}
+.testi-heading h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.testi-heading span{
+    font-size: 15px;
+    font-weight: 600;
+    color: #00007f;
+}
+.owl-carousel .owl-item img{
+    width: 70px;
+}
+.testi-name{
+    display: flex;
+}
+.testi-item-name{
+    padding: 12px;
+}
+.testi-item-name h3{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.testi-box{
+    padding: 20px 10px;
+}
+.tesiti-box-data{
+    box-shadow: 7px 7px 7px #ddd;
+    padding: 25px;
+}
+.testi-content{
+    margin-top: 20px;
+}
+/* footer */
+.footer{
+    background-color: #132f45;
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-logo img{
+    width: 150px;
+    filter: brightness(10);
+}
+.Footer-detail{
+    margin-top: 50px;
+}
+.footer-box{
+    text-align: center;
+}
+.footer-box i{
+    font-size: 30px;
+    color: #0D6efd;
+}
+.footer-box h3{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+} 
+.footer-links{
+    text-align: center;
+    margin: 40px 0;
+}
+.footer-links li{
+    display: inline-block;
+    margin: 0 25px;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-links li a:hover{
+    color: #c3c3c2;
+}
+.footer-f-book a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Utilit classe */
+.section{
+    padding: 70px 0;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.sub-heading{
+    font-size: 15px;
+    font-weight: 500;
+}
+.primary-text{
+    font-size: 15px;
+    color: #999696;
+}
+/* Mobile responsive */
+@media(max-width:500px){
+    .header-left{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .header-right ul{
+        padding: 0;
+    }
+    .header-right{
+        text-align: center;
+        border-right: none;
+    }
+    .navbar-brand img{
+        width: 120px;
+    }
+    .navbar-nav a{
+        font-size: 14px;
+    }
+    .navbar-collapse{
+        padding: 10px 30px;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .nav-icons a:first-child{
+        margin-left: 0;
+    }
+    .hero-slider h1{
+        font-size: 20px;
+    }
+    .slider-data{
+        text-align: center;
+    }
+    .hero-slider p{
+        font-size: 13px;
+        line-height: normal;
+    }
+    .btn-slider {
+        margin-top: 40px;
+    }
+    .carousel-nav{
+        top: 75%;
+    }
+    .about-left{
+        text-align: center;
+    }
+    .about-left h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .about-box img {
+        width: 40px;
+    }
+    .about-right{
+        margin-top: 20px;
+    }
+    .solution-box{
+        padding: 20px;
+    }
+    .solution-btn{
+        padding-top:40px ;
+    }
+    .solution-btn a{
+        font-size: 14px;
+    }
+    .study-text{
+        padding-top: 20px;
+    }
+    .study-box{
+        margin-bottom: 30px;
+    }
+    .insight-heading h2{
+        font-size: 20px;
+    }
+    .insight-text {
+        padding: 15px;
+    }
+    .insight-box{
+       height: 95%;
+       margin: 20px 0;
+       text-align: center;
+    }
+    .date-line{
+        padding: 0;
+        border-right: none;
+    }
+    .insight-text .insight-date .name{
+        padding-left: 0;
+        display: block;
+    }
+    .insight-btn a{
+        font-size: 14px;
+    }
+    .insght-view-btn a{
+        font-size: 14px;
+    }
+    .owl-carousel .owl-item img {
+        width: 50px;
+    }
+    .testimonial {
+        padding: 40px 0 80px;
+    }
+    .tesiti-box-data{
+        box-shadow: 0px 0px 7px #ddd;
+    }
+    .testi-name{
+        justify-content: center;
+    }
+    .testi-content{
+        text-align: center;
+    }
+    .footer-logo img{
+        width: 120px;
+    }
+    .footer-box{
+        margin-bottom: 30px;
+    }
+    .footer-box h3 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .footer-links ul{
+        padding: 0;
+    }
+    .footer-links li{
+        margin: 5px 10px;
+    }
+    .footer-links li a{
+        font-size: 14px;
+    }
+    /* .]Utility */
+    .sub-heading{
+        font-size: 14px;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .primary-text{
+        font-size: 14px;
+        line-height: normal;
+    }
+    .box-btn a{
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .section{
+        padding: 40px 0;
+    }
+}
+@media(min-width:501px) and (max-width:768px){
+    .header-left{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .header-right ul{
+        padding: 0;
+    }
+    .header-right{
+        text-align: center;
+        border-right: none;
+    }
+    .navbar-brand img{
+        width: 120px;
+    }
+    .navbar-nav a{
+        font-size: 14px;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        background: #fff;
+        right: 20px;
+        left: 20px;
+        padding: 26px;
+        z-index: 99;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .nav-icons a:first-child{
+        margin-left: 0;
+    }
+    .hero-slider h1{
+        font-size: 30px;
+    }
+    .slider-data{
+        text-align: center;
+    }
+    .hero-slider p{
+        font-size: 13px;
+        line-height: normal;
+    }
+    .btn-slider {
+        margin-top: 40px;
+    }
+    .carousel-nav{
+        left: 25%;
+    }
+    .servics-detail .row{
+        justify-content: left;
+    }
+    .about-left{
+        text-align: center;
+    }
+    .about-left h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .about-box img {
+        width: 40px;
+    }
+    .about-right{
+        margin-top: 20px;
+    }
+    .solution-box{
+        padding: 20px;
+    }
+    .solution-btn{
+        padding-top:40px ;
+    }
+    .solution-btn a{
+        font-size: 14px;
+    }
+    .study-text{
+        padding-top: 20px;
+    }
+    .study-box{
+        margin-bottom: 30px;
+    }
+    .insight-heading h2{
+        font-size: 20px;
+    }
+    .insight-text {
+        padding: 15px;
+    }
+    .insight-box{
+       height: 95%;
+       margin: 20px 0;
+       text-align: center;
+    }
+    .date-line{
+        padding: 0;
+        border-right: none;
+    }
+    .insight-text .insight-date .name{
+        padding-left: 0;
+        display: block;
+    }
+    .insight-btn a{
+        font-size: 14px;
+    }
+    .insght-view-btn a{
+        font-size: 14px;
+    }
+    .owl-carousel .owl-item img {
+        width: 50px;
+    }
+    .testimonial {
+        padding: 40px 0 80px;
+    }
+    .tesiti-box-data{
+        padding: 45px;
+    }
+    .testi-name{
+        justify-content: center;
+    }
+    .testi-content{
+        text-align: center;
+    }
+    .footer-logo img{
+        width: 120px;
+    }
+    .footer-box{
+        margin-bottom: 30px;
+    }
+    .footer-box h3 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .footer-links ul{
+        padding: 0;
+    }
+    .footer-links li{
+        margin: 5px 10px;
+    }
+    .footer-links li a{
+        font-size: 14px;
+    }
+    /* .]Utility */
+    .sub-heading{
+        font-size: 15px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .primary-text{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .box-btn a{
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .section{
+        padding: 40px 0;
+    }
+}
+@media(min-width:769px) and (max-width:991px){
+    .header-left{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .header-right ul{
+        padding: 0;
+    }
+    .header-right{
+        text-align: center;
+        border-right: none;
+    }
+    .navbar-brand img{
+        width: 120px;
+    }
+    .navbar-nav a{
+        font-size: 14px;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        background: #fff;
+        right: 20px;
+        left: 20px;
+        padding: 26px;
+        z-index: 99;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .nav-icons a:first-child{
+        margin-left: 0;
+    }
+    .hero-slider h1{
+        font-size: 30px;
+    }
+    .slider-data{
+        text-align: center;
+    }
+    .hero-slider p{
+        font-size: 13px;
+        line-height: normal;
+    }
+    .btn-slider {
+        margin-top: 40px;
+    }
+    .carousel-nav{
+        left: 45%;
+    }
+    .servics-detail .row{
+        justify-content: left;
+    }
+    .about-left{
+        text-align: center;
+    }
+    .about-left h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .about-box img {
+        width: 40px;
+    }
+    .about-right{
+        margin-top: 20px;
+    }
+    .solution-box{
+        padding: 20px;
+    }
+    .solution-btn{
+        padding-top:40px ;
+    }
+    .solution-btn a{
+        font-size: 14px;
+    }
+    .study-text{
+        padding-top: 20px;
+    }
+    .study-box{
+        margin-bottom: 40px;
+    }
+    .insight-heading h2{
+        font-size: 20px;
+    }
+    .insight-text {
+        padding: 15px;
+    }
+    .insight-box{
+       height: 95%;
+       margin: 20px 0;
+    }
+    .insight-btn a{
+        font-size: 14px;
+    }
+    .insght-view-btn a{
+        font-size: 14px;
+    }
+    .owl-carousel .owl-item img {
+        width: 50px;
+    }
+    .testimonial {
+        padding: 40px 0 80px;
+    }
+    .tesiti-box-data{
+        padding: 50px;
+    }
+    .testi-name{
+        justify-content: center;
+    }
+    .testi-content{
+        text-align: center;
+    }
+    .footer-logo img{
+        width: 120px;
+    }
+    .footer-box{
+        margin-bottom: 30px;
+    }
+    .footer-box h3 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .footer-links ul{
+        padding: 0;
+    }
+    .footer-links li{
+        margin: 5px 10px;
+    }
+    .footer-links li a{
+        font-size: 14px;
+    }
+    /* .]Utility */
+    .sub-heading{
+        font-size: 15px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .primary-text{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .box-btn a{
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .section{
+        padding: 40px 0;
+    }
+}
